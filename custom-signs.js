@@ -13,3 +13,11 @@ function buildBirthdaySign(age) {
 }
 
 // console.log(buildBirthdaySign(45));
+
+///---///
+
+function graduationFor(name, year) {
+  return `Congratulations ${name}!\nClass of ${year}`;
+}
+
+// console.log(graduationFor("Hannah", 2022));
