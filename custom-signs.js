@@ -21,3 +21,12 @@ function graduationFor(name, year) {
 }
 
 // console.log(graduationFor("Hannah", 2022));
+
+///---///
+
+function costOf(sign, currency) {
+  const price = 20 + sign.length * 2;
+  return `Your sign costs ${price.toFixed(2)} ${currency}.`;
+}
+
+// console.log(costOf("Happy Birthday Rob!", "dollars"));
